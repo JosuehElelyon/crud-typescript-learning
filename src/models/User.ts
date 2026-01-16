@@ -1,0 +1,1 @@
+export interface User {\n  id: number;\n  name: string;\n  email: string;\n  age: number;\n  created_at: Date;\n}\n\nexport interface CreateUserDTO {\n  name: string;\n  email: string;\n  age: number;\n}\n\nexport interface UpdateUserDTO {\n  name?: string;\n  email?: string;\n  age?: number;\n}\n
